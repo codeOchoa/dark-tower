@@ -1,0 +1,35 @@
+{
+  "name": "dark-tower",
+  "version": "0.1.0",
+  "description": "database",
+  "keywords": [
+    "server",
+    "db",
+    "database",
+    "api",
+    "data"
+  ],
+  "homepage": "https://github.com/codeOchoa/dark-tower#readme",
+  "bugs": {
+    "url": "https://github.com/codeOchoa/dark-tower/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeOchoa/dark-tower.git"
+  },
+  "author": "codeOchoa",
+  "license": "ISC",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^11.0.5"
+  }
+}
